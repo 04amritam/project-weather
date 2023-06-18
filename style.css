@@ -1,11 +1,11 @@
 
-/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Open+Sans:wght@600&family=Supermercado+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Open+Sans:wght@600&family=Supermercado+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&display=swap');
 
-*{ 
+ *{ 
     padding: 0%;
     margin: 0%;
-} */
+}  
 .logo{
     display: flex;
     align-items: center;
@@ -18,25 +18,24 @@ width: 88px;
 padding: 0 23px;
 border-radius: 55%;
 }
-/* 
-.container-fluid{
-    padding: 2px;
-    background-color: gold;
-    border:ridge;
+.card-header {
+    background-color: aqua;
+    border-style: hidden;
+   
 }
-.container{
-   
-    color:black;
-   
+.card-body {
+    box-shadow: gray;
+    background-color:rgb(195, 243, 227);
+    
 
-    }
+}
+
     /* button{
         background-color: rgb(213, 246, 66);
     } */
 
 .card-body {
-    flex: inherit;
-    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
-    color: gold;
+   text-align: inherit;
+
 }
- */
+ 
